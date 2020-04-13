@@ -1,3 +1,4 @@
+import pgzrun
 import math
 import time
 
@@ -166,4 +167,5 @@ def draw():
     for ball in balls:
         if ball.pocketed == False:
             ball.actor.draw()
-    
+
+pgzrun.go()
